@@ -75,7 +75,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "Cranfieldcoin";
 
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001bb9c01029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210123ff2a5aa721b179939c1c342d7e1a54ac4459c8e57bb0323ea2176220542d72";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -88,7 +88,7 @@ const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 //TODO This port will be used by the daemon to establish connections with p2p network
 const int      P2P_DEFAULT_PORT                              = 17236;
 //TODO This port will be used by the daemon to interact with simlewallet
-const int      RPC_DEFAULT_PORT                              = 18236;
+const int      RPC_DEFAULT_PORT                              = 99545;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -109,8 +109,8 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 const std::initializer_list<const char*> SEED_NODES = {
   //"your_seed_ip1.com:8080",
   //"your_seed_ip2.com:8080",
-  "45.76.131.77:17236",
-
+  "45.77.228.75:17236",
+  "45.76.141.170:17236"
 };
 
 struct CheckpointData {
