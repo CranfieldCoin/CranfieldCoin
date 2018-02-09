@@ -75,7 +75,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "cranfieldcoin";
 
-const char GENESIS_COINBASE_TX_HEX[] = "013c01ff0001bb9c01029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101ced3b867d6c0ea2cb53927d422864103441e3d71f9067b048d8aec7edac5c1df";
+const char GENESIS_COINBASE_TX_HEX[] = "";
 
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
@@ -87,9 +87,10 @@ const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  200;    //by def
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
 //TODO This port will be used by the daemon to establish connections with p2p network
-const int      P2P_DEFAULT_PORT                              = 20545;
+const int      P2P_DEFAULT_PORT                              = 17236;
 //TODO This port will be used by the daemon to interact with simlewallet
-const int      RPC_DEFAULT_PORT                              = 17236;
+const int      RPC_DEFAULT_PORT                              = 20545;
+  
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
