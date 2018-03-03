@@ -76,7 +76,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 const char     CRYPTONOTE_NAME[]                             = "cranfieldcoin";
 
 //const char GENESIS_COINBASE_TX_HEX[] = "";
-const char GENESIS_COINBASE_TX_HEX[] = "";
+const char GENESIS_COINBASE_TX_HEX[] = ""013c01ff0001ecf104029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101118b20542ac042cb909f550bb58e7a9bda610d78d4fc0c873851683c973cc5c4";
 
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
